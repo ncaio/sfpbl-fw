@@ -1,11 +1,12 @@
 #!/bin/bash
 #
-#
+#   Ncaio - caiogore gmail com
 #
 iptables -F INPUT
 #
-#   PUT YOUR PERSONAL RULES HERE
 #
+#
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
 #
 #   REDIRECT 9877 9875 AND 80 TO spfblaccept
 #
@@ -28,3 +29,6 @@ if [ -e sfpbl-fw-drop.sh ]
 then
     ./sfpbl-fw-drop.sh
 fi
+#
+#   PUT YOUR PERSONAL RULES HERE
+#
