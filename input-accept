@@ -1,0 +1,34 @@
+#
+#   IPADDRESS/MASK;PORT;PROTOCOL;COMMENT
+#
+#   SPFBL ADMIN
+#
+# Accept user Leandro Carlos Rodrigues <x...@allchemistry.com.br>.
+#
+#XXX.X.XXX.XXX/32;9875;tcp;SPFBLADMIN
+#
+#   SPFBL HTTP
+#
+0.0.0.0;80;tcp;SPFBLHTTP
+#
+#   SPFBL P2P
+#
+0.0.0.0;9877;udp;SPFBLP2P
+#
+#### SPFBL QUERY
+#
+#   Accept user Davi Peres <x...@gmail.com>.
+#
+#IPADDRESS;9877;tcp;DaviPeres
+#
+#   Accept user Rafael Domiciano <x...@gmail.com>.
+#
+#IPADDRESS;9877;tcp;RafaelDomiciano
+#
+#   Accept user Bruno Menoli <x...@gmail.com>.
+#
+#IPADDRESS;9877;tcp;BrunoMenoli
+#
+#   Accept user Ulisses Antonio Donato <x...@proup.com.br>.
+#
+#IPADDRESS;9877;tcp;UlissesAntonioDonato
