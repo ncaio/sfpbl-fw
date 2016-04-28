@@ -3,9 +3,9 @@
 ```shell
 .
 |-- README.md
-|-- input-accept - list of ipaddress
-|-- input-drop - list of ipaddress
-|-- sfpbl-fw-accept.sh - script to accept
-|-- sfpbl-fw-drop.sh - script to drop
+|-- input-accept - allow list - ipaddress;port;protocol;comment
+|-- input-drop - deny list -  ipaddress;port;protocol;comment
+|-- sfpbl-fw-accept.sh - script to accept input-aceept list
+|-- sfpbl-fw-drop.sh - script to drop input-drop list
 `-- sfpbl-fw.sh - main script
 ```
